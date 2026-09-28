@@ -1,0 +1,7 @@
+# Smithery configuration for GenPark AI Agent MCP Server
+version: 1
+startCommand:
+  type: stdio
+  config:
+    command: python
+    args: ["-u", "mcp_server.py"]
